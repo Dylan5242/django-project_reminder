@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Сдать лабораторную работу по ООП Python",
+    "description": "Подготовить демонстрацию классов сущностей, наследования и репозитория.",
+    "due_date": "2026-10-17",
+    "due_time": "18:00:00",
+    "priority": "critical",
+    "is_completed": false,
+    "completed_at": null,
+    "created_at": "2026-10-14T14:16:31.049340",
+    "updated_at": "2026-10-18T14:16:31.049350"
+  },
+  {
+    "id": 2,
+    "title": "Прочитать раздел руководства по маршрутам Django (urls.py)",
+    "description": "Разобрать path(), include(), а также связывание URL с функциями представлений views.py.",
+    "due_date": "2026-10-18",
+    "due_time": "14:30:00",
+    "priority": "high",
+    "is_completed": false,
+    "completed_at": null,
+    "created_at": "2026-10-16T14:16:31.049355",
+    "updated_at": "2026-10-18T14:16:31.049359"
+  },
+  {
+    "id": 3,
+    "title": "Проверить отображение HTML-шаблона для списка заметок",
+    "description": "Убедиться, что теги Jinja/Django {% for item in notes %} корректно выводят карточки.",
+    "due_date": "2026-10-18",
+    "due_time": "20:00:00",
+    "priority": "medium",
+    "is_completed": false,
+    "completed_at": null,
+    "created_at": "2026-10-17T14:16:31.049362",
+    "updated_at": "2026-10-18T14:16:31.049364"
+  },
+  {
+    "id": 4,
+    "title": "Написать модульные тесты для сервисного слоя",
+    "description": "Протестировать фильтрацию по датам и расчет просроченных напоминаний через unittest.",
+    "due_date": "2026-10-19",
+    "due_time": "12:00:00",
+    "priority": "high",
+    "is_completed": false,
+    "completed_at": null,
+    "created_at": "2026-10-18T04:16:31.049367",
+    "updated_at": "2026-10-18T14:16:31.049371"
+  },
+  {
+    "id": 5,
+    "title": "Изучить создание Django Models и механизм миграций",
+    "description": "Следующий модуль курса: преобразование Python классов в django.db.models.Model.",
+    "due_date": "2026-10-21",
+    "due_time": "10:00:00",
+    "priority": "medium",
+    "is_completed": false,
+    "completed_at": null,
+    "created_at": "2026-10-18T06:16:31.049373",
+    "updated_at": "2026-10-18T14:16:31.049377"
+  },
+  {
+    "id": 6,
+    "title": "Установить виртуальное окружение venv и пакет django",
+    "description": "Выполнено: создан venv, проверена версия Django 5.x.",
+    "due_date": "2026-10-15",
+    "due_time": "11:00:00",
+    "priority": "low",
+    "is_completed": true,
+    "completed_at": "2026-10-16T14:16:31.049379",
+    "created_at": "2026-10-14T14:16:31.049380",
+    "updated_at": "2026-10-18T14:16:31.049383"
+  }
+]

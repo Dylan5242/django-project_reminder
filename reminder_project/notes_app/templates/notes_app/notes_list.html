@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список заметок</title>
+</head>
+<body style="font-family: sans-serif; max-width: 800px; margin: 40px auto;">
+    <a href="/reminders/">&larr; Перейти к напоминаниям</a>
+    <h1>Список заметок</h1>
+
+    {% for note in notes %}
+        <div style="border: 1px solid #ccc; padding: 15px; margin-bottom: 15px; border-radius: 8px;">
+            <h3>
+                <a href="/notes/{{ note.id }}/">{{ note.title }}</a>
+                {% if note.is_pinned %} {% endif %}
+            </h3>
+            <p>{{ note.preview }}</p>
+            <small style="color: gray;">Теги: {{ note.tags|join:", " }}</small>
+        </div>
+    {% empty %}
+        <p>Заметок пока нет.</p>
+    {% endfor %}
+</body>
+</html>
